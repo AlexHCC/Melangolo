@@ -1,0 +1,33 @@
+@font-face {
+    font-family: logoFont;
+    src: url(../assets/fonts/Ubuntu-Light.ttf);
+}
+
+body {
+    /* Background */
+    background-image: url(../assets/images/background-image.jpg);
+
+    /* Text */
+    color: #f7f6e7;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: logoFont, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    /* Position */
+    text-align: center;
+    margin-top: 200px;
+    line-height: 50px;
+}
+a {
+    /* Text */
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    outline : none;
+
+    /* Position */
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+
+}
